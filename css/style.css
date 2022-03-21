@@ -31,7 +31,7 @@ body {
   background-color: #ffffff;
 }
 #login-text {
-  font-size: 20px;
+  font-size: 22px;
   margin: 16px 0 32px;
 }
 #web-version {
@@ -59,10 +59,26 @@ body {
   cursor: pointer;
 }
 .login-form input {
-  width: 300px;
-  height: 50px;
+  width: 310px;
+  height: 58px;
   margin-bottom: 10px;
   padding-left: 10px;
+  padding-right: 40px;
   outline: none;
   border: 1px solid lightgray;
+}
+.input-area{
+    position: relative;
+}
+#eye{
+    position: absolute;
+    left: 280px;
+    top: 93px;
+    color: #000000de;
+}
+#user{
+    position: absolute;
+    left: 280px;
+    top: 20px;
+    color: #000000de;
 }
