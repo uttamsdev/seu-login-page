@@ -3,15 +3,17 @@
   margin: 0;
   padding: 0;
   font-family: "Mulish", sans-serif;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 body {
   background-image: url(../Images/E1.jpg);
   background-size: cover;
 }
 .login-form img {
-  width: 128px;
-  height: 128px;
+  width: 140px;
+  height: 140px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .login-area {
@@ -29,6 +31,7 @@ body {
   border-radius: 20px;
   z-index: 1000;
   background-color: #ffffff;
+  /* height: auto; */
 }
 #login-text {
   font-size: 22px;
@@ -47,6 +50,7 @@ body {
   text-decoration: underline;
 }
 .login-form button {
+  border-radius: 5px;
   width: 220px;
   margin: 16px auto;
   display: block;
@@ -55,30 +59,34 @@ body {
   border: none;
   color: white;
   padding: 8px 0px;
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
 }
 .login-form input {
   width: 310px;
-  height: 58px;
-  margin-bottom: 10px;
+  height: 65px;
+  margin-bottom: 30px;
   padding-left: 10px;
   padding-right: 40px;
   outline: none;
   border: 1px solid lightgray;
 }
-.input-area{
-    position: relative;
+.input-area {
+  position: relative;
 }
-#eye{
-    position: absolute;
-    left: 280px;
-    top: 93px;
+.login-area span{
+    font-size: 15px;
     color: #000000de;
 }
-#user{
-    position: absolute;
-    left: 280px;
-    top: 20px;
-    color: #000000de;
+#eye {
+  position: absolute;
+  left: 335px;
+  top: 120px;
+  color: #000000bc;
+}
+#user {
+  position: absolute;
+  left: 335px;
+  top: 20px;
+  color: #000000c9;
 }
