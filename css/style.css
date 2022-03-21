@@ -63,7 +63,7 @@ body {
   cursor: pointer;
 }
 .login-form input {
-  width: 310px;
+  width: 320px;
   height: 65px;
   margin-bottom: 30px;
   padding-left: 10px;
@@ -81,16 +81,17 @@ body {
 }
 #eye {
   position: absolute;
-  left: 335px;
+  left: 338px;
   top: 120px;
   color: #000000b2;
+  font-size: 22px;
 }
 #user {
   position: absolute;
-  left: 335px;
+  left: 338px;
   top: 20px;
   color: #000000b2;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 input:hover {
