@@ -110,6 +110,7 @@ input:hover {
     .login-form input{
         width: 230px;
         height: 55px;
+        font-size: 16px;
     }
     #user,
     #eye{
