@@ -38,7 +38,7 @@ body {
   margin: 16px 0 32px;
 }
 #web-version {
-  font-size: 13px;
+  font-size: 15px;
   color: #000000de;
 }
 .login-form a {
@@ -70,23 +70,63 @@ body {
   padding-right: 40px;
   outline: none;
   border: 1px solid lightgray;
+  border-radius: 8px;
 }
 .input-area {
   position: relative;
 }
-.login-area span{
-    font-size: 15px;
-    color: #000000de;
+.login-area span {
+  font-size: 15px;
+  color: #000000de;
 }
 #eye {
   position: absolute;
   left: 335px;
   top: 120px;
-  color: #000000bc;
+  color: #000000b2;
 }
 #user {
   position: absolute;
   left: 335px;
   top: 20px;
-  color: #000000c9;
+  color: #000000b2;
+  font-size: 22px;
+}
+
+input:hover {
+  outline: 1.5px solid #000000DE;
+}
+/* input:focus {
+  outline: none;
+} */
+
+@media (max-width:450px) {
+    .login-form{
+        width: 70%;
+        
+    }
+    .login-form input{
+        width: 230px;
+        height: 55px;
+    }
+    #user,
+    #eye{
+        left: 250px;
+    }
+    #eye{
+        top: 110px;
+    }
+    #login-text{
+        font-size: 20px;
+    }
+    #web-version{
+        display: none;
+    }
+    .login-form a{
+        font-size: 15px;
+    }
+    .login-area img{
+        margin-top:  20px;
+    }
+    
 }
