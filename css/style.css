@@ -1,21 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mulish:wght@300;400&family=Open+Sans:wght@400;600&family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    /* box-sizing: border-box; */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mulish:wght@300;400&family=Open+Sans:wght@400;600&family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+  box-sizing: border-box;
 }
-body{
-    background-image: url(../Images/E1.jpg);
+body {
+  background-image: url(../Images/E1.jpg);
+  background-size: cover;
 }
 .login-form img {
   width: 128px;
   height: 128px;
 }
 
-.login-area{
-    display: grid;
-    place-items: center;
-    height: 100vh;
+.login-area {
+  display: grid;
+  place-items: center;
+  height: 100vh;
 }
 .login-form {
   width: 384px;
@@ -27,4 +29,40 @@ body{
   border-radius: 20px;
   z-index: 1000;
   background-color: #ffffff;
+}
+#login-text {
+  font-size: 20px;
+  margin: 16px 0 32px;
+}
+#web-version {
+  font-size: 13px;
+  color: #000000de;
+}
+.login-form a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #039be5;
+}
+.login-form a:hover {
+  text-decoration: underline;
+}
+.login-form button {
+  width: 220px;
+  margin: 16px auto;
+  display: block;
+  background-color: #039be5;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 8px 0px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.login-form input {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  outline: none;
+  border: 1px solid lightgray;
 }
