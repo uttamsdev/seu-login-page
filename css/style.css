@@ -64,7 +64,7 @@ body {
 }
 .login-form input {
   width: 320px;
-  height: 65px;
+  height: 57px;
   margin-bottom: 30px;
   padding-left: 10px;
   padding-right: 40px;
@@ -83,7 +83,7 @@ body {
 #eye {
   position: absolute;
   left: 338px;
-  top: 120px;
+  top: 110px;
   color: #000000b2;
   font-size: 22px;
 }
